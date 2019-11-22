@@ -1,24 +1,23 @@
 {
-  "name": "nodejs-boilerplate",
+  "name": "js-playground",
   "version": "1.0.0",
-  "description": "starter kit for NodeJS development",
+  "description": "sandbox for JS development",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/app.js",
-    "build-css": "node-sass --include-path scss src/scss/main.scss src/public/css/main.css",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    "start": "parcel -p 3000 src/views/index.html",
+    "build": "parcel build src/views/index.html"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bspeidel/nodejs-boilerplate.git"
+    "url": "git+https://github.com/bspeidel/js-playground.git"
   },
   "author": "Benjamin Speidel",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bspeidel/nodejs-boilerplate/issues"
+    "url": "https://github.com/bspeidel/js-playground/issues"
   },
-  "homepage": "https://github.com/bspeidel/nodejs-boilerplate#readme",
+  "homepage": "https://github.com/bspeidel/js-playground#readme",
   "devDependencies": {
     "babel-eslint": "^10.0.3",
     "eslint": "^6.4.0",
@@ -28,7 +27,8 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "node-sass": "^4.12.0",
-    "nodemon": "^1.19.2",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.23.7",
     "stylelint-config-prettier": "^5.2.0",
     "stylelint-prettier": "^1.1.1"
   },
