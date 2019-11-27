@@ -10,6 +10,11 @@ body {
   padding: 32px;
 }
 
+.chart-container {
+  position: relative;
+  height: 100px;
+}
+
 /* Card */
 .card {
   border-radius: 2px;
@@ -42,6 +47,11 @@ body {
 }
 
 /* Table */
+
+.table th {
+  border-top: 2px solid #dfdfdf;
+}
+
 .btn-group > .btn.btn-link {
   padding: 0 15px 0 0;
 }
