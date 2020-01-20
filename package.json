@@ -1,39 +1,39 @@
 {
-  "name": "js-playground",
-  "version": "1.0.0",
-  "description": "sandbox for JS development",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel -p 3000 src/views/index.html",
-    "build": "parcel build src/views/index.html"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bspeidel/js-playground.git"
-  },
-  "author": "Benjamin Speidel",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bspeidel/js-playground/issues"
-  },
-  "homepage": "https://github.com/bspeidel/js-playground#readme",
-  "devDependencies": {
-    "babel-eslint": "^10.0.3",
-    "eslint": "^6.4.0",
-    "eslint-config-google": "^0.14.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-node": "^9.2.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
-    "node-sass": "^4.12.0",
-    "parcel-bundler": "^1.12.4",
-    "sass": "^1.23.7",
-    "stylelint-config-prettier": "^5.2.0",
-    "stylelint-prettier": "^1.1.1"
-  },
-  "dependencies": {
-    "express": "^4.17.1",
-    "serve-favicon": "^2.5.0"
-  }
+	"name": "js-playground",
+	"version": "1.0.0",
+	"description": "Boilerplate for JS development",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "parcel -p 3000 src/views/index.html",
+		"build": "parcel build src/views/index.html"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bspeidel/js-playground.git"
+	},
+	"author": "Benjamin Speidel",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/bspeidel/js-playground/issues"
+	},
+	"homepage": "https://github.com/bspeidel/js-playground#readme",
+	"devDependencies": {
+		"babel-eslint": "^10.0.3",
+		"eslint": "^6.4.0",
+		"eslint-config-google": "^0.14.0",
+		"eslint-plugin-import": "^2.18.2",
+		"eslint-plugin-node": "^9.2.0",
+		"eslint-plugin-promise": "^4.2.1",
+		"eslint-plugin-standard": "^4.0.1",
+		"node-sass": "^4.12.0",
+		"parcel-bundler": "^1.12.4",
+		"sass": "^1.23.7",
+		"stylelint-config-prettier": "^5.2.0",
+		"stylelint-prettier": "^1.1.1"
+	},
+	"dependencies": {
+		"express": "^4.17.1",
+		"serve-favicon": "^2.5.0"
+	}
 }
