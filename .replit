@@ -1,2 +1,2 @@
 language = "nodejs"
-run = ""
+run = "parcel -p 3000 src/views/index.html"
