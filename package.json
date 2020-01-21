@@ -1,5 +1,5 @@
 {
-	"name": "js-playground",
+	"name": "js-boilerplate",
 	"version": "1.0.0",
 	"description": "Boilerplate for JS development",
 	"main": "app.js",
@@ -10,14 +10,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/bspeidel/js-playground.git"
+		"url": "git+https://github.com/bspeidel/js-boilerplate.git"
 	},
 	"author": "Benjamin Speidel",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/bspeidel/js-playground/issues"
+		"url": "https://github.com/bspeidel/js-boilerplate/issues"
 	},
-	"homepage": "https://github.com/bspeidel/js-playground#readme",
+	"homepage": "https://github.com/bspeidel/js-boilerplate#readme",
 	"devDependencies": {
 		"babel-eslint": "^10.0.3",
 		"eslint": "^6.8.0",
