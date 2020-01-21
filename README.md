@@ -1,5 +1,7 @@
 # JavaScript Boilerplate
 
+[![Run on Repl.it](https://repl.it/badge/github/bspeidel/js-boilerplate)](https://repl.it/github/bspeidel/js-boilerplate)
+
 For lighting fast prototyping.
 
 ## Some features
