@@ -1,18 +1,9 @@
 {
   "javascript.validate.enable": false,
   "typescript.validate.enable": false,
-  "stylelint.enable": true,
   "css.validate": false,
   "less.validate": true,
   "scss.validate": true,
-  "eslint.autoFixOnSave": true,
-  "eslint.validate": [
-    "javascript",
-    {
-      "language": "javascript",
-      "autoFix": true
-    }
-  ],
   "eslint.options": {
     "extends": "google",
     "env": {
